@@ -1,0 +1,17 @@
+<div class="upload-box">
+   	<form name="myForm" class="row">
+   		<input type="file" ngf-select ng-model="csvFile" name="file" accept="*.*" ngf-max-size="1MB" required ngf-model-invalid="errorFile">
+		<br>
+		<button ng-disabled="!myForm.$valid" ng-click="uploadCsv(csvFile)" class="btn btn-success">Hook me Up!</button>
+		<span class="progress" ng-show="csvFile.progress >= 0">
+			<div style="width:{{csvFile.progress}}%" >
+				{{csvFile.progress}}%
+			</div>
+		</span>
+	    <br>
+	    <label class="error" ng-show="myForm.file.$error.maxSize">File size ({{errorFile.size / 1000000|number:1}}MB) is too large. The maximum is 1MB</label>
+		
+		<span ng-show="picFile.result">Upload Successful</span>
+   		<span class="err" ng-show="errorMsg">{{errorMsg}}</span>
+	</form>
+</div>

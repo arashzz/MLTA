@@ -1,0 +1,26 @@
+<div class="row search-row">
+	<div class="col-md-5">
+		<datepicker date-format="yyyy-MM-dd" selector="form-control" >
+		    <div class="input-group">
+		    	<span>From Date</span>
+		        <input class="form-control" placeholder="Choose a date" ng-model="fromDate" ng-change="changed()"/>
+		    </div>
+		</datepicker>
+	</div>
+	<div class="col-md-5">
+		<datepicker date-format="yyyy-MM-dd" selector="form-control">
+		    <div class="input-group">
+		    	<span>To Date</span>
+		        <input class="form-control" placeholder="Choose a date" ng-model="toDate" ng-change="changed()"/>
+		    </div>
+		</datepicker>
+	</div>
+	<div class="col-md-2">
+		<select ng-model="limit" class="form-control" ng-change="changed()">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="5">5</option>
+		</select>
+	</div>
+</div>

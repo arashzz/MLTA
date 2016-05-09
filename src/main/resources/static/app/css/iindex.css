@@ -1,0 +1,96 @@
+html, body {
+	background: #ecf0f1;
+	font-family: 'Open Sans', serif !important;
+}
+.top-header {
+    width: 995px;
+    margin-left: 15px;
+    height: 50px;
+    background: white;
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 3px solid lightgreen;
+    line-height: 45px;
+    font-size: 20px;
+}
+select {
+	border-radius: 0 !important;
+	margin-top:18px;
+	height:34px;
+}
+.main-container {
+	width:1200px;
+	margin: 0 auto;
+}
+.search {
+}
+form {
+	padding-left:20px;
+}
+.progress { 
+	width:300px !important;
+	margin-top:20px;
+}
+.progress div {
+    font-size: smaller;
+    width: 0;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    outline: none;
+    line-height: 20px;
+    background: lightgreen;
+    transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+.error
+ {
+ 	margin-top:10px;
+ 	color:red;
+ }
+ 
+ .ng-table th {
+   text-align: center !important;
+}
+.col-count {
+   text-align: center !important;
+}
+.btn.btn-danger {
+	margin-left:5px;
+	margin-top:10px;
+}
+.upload-box {
+	margin-bottom: 40px;
+    height: 200px;
+    padding: 20px;
+    background: white;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    border-top: 3px solid lightgreen;
+}
+.table-box {
+	margin-top:20px;
+}
+.search-row {
+	margin-top:20px;
+}
+.search-box {
+	background: white;
+	min-height: 250px;
+	box-shadow: 1px 1px 1px 1px lightgray;
+    border-top: 3px solid lightgreen;
+}
+div.ng-table-header:first {
+	width:50% !important;
+}
+.modal-box {
+	width:200px;
+	height:150px;
+	background: white;
+	box-shadow: 1px 1px 1px 1px lightgray;
+	margin: 0 auto;
+	z-index: 99999999999;
+}
