@@ -18,3 +18,10 @@ spring.jpa.hibernate.ddl-auto=create-drop is set to create-drop for the first in
 - Import the downloaded project as <b>Existing Maven Projects</b>
 - Go to com.example.demo package and open <b>MlTestApplication.java</b>
 - Hold Alt, press x then press b to build and run the project
+
+#How run using Maven
+
+- Download the project as .zip file
+- unzip the project in your desired directory
+- open command prompt (in windows) or terminal (in linux) and go to the project's root directory
+- run command <b>mvn spring-boot:run</b>
