@@ -1,9 +1,9 @@
 #ManuLife Technical Assignment
 This sample project is for Manulife technical assignment purpose only.
 
-This spring project is compiled against java 1.8 so make sure you have your spring sts is set to compile this project with java 1.8
+This spring project is compiled against java 1.8 using Spring Tool Suite 3.7.3.
 
-You can use the data.csv in the root directory as the initial data. Feel free to use your own csv file but make sure it follows the same format or if will be ignored. (I made duplicate data from the original data just to make it big in size in order to see the upload process, previously it was too small that you couldn't notice an upload process)
+You can use the data.csv in the root directory as the initial data. Feel free to use your own csv file but make sure it follows the same format or if will be ignored.
 
 Make sure you have a mysql schema created with the same name as mentioned in the application.properties(in the root directory), also mentioned below:
 
